@@ -14,6 +14,8 @@
 		6D5B98BC23CDD2CD00D0CFA5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6D5B98BB23CDD2CD00D0CFA5 /* Assets.xcassets */; };
 		6D5B98BF23CDD2CD00D0CFA5 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6D5B98BD23CDD2CD00D0CFA5 /* LaunchScreen.storyboard */; };
 		6D5B98C223CDD2CD00D0CFA5 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 6D5B98C123CDD2CD00D0CFA5 /* main.m */; };
+		6D5B98CA23CDD55100D0CFA5 /* MyTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6D5B98C923CDD55100D0CFA5 /* MyTableViewController.m */; };
+		6D5B98CD23CDF56600D0CFA5 /* GameViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6D5B98CC23CDF56600D0CFA5 /* GameViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -29,6 +31,10 @@
 		6D5B98BE23CDD2CD00D0CFA5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		6D5B98C023CDD2CD00D0CFA5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		6D5B98C123CDD2CD00D0CFA5 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		6D5B98C823CDD55100D0CFA5 /* MyTableViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MyTableViewController.h; sourceTree = "<group>"; };
+		6D5B98C923CDD55100D0CFA5 /* MyTableViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MyTableViewController.m; sourceTree = "<group>"; };
+		6D5B98CB23CDF56600D0CFA5 /* GameViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GameViewController.h; sourceTree = "<group>"; };
+		6D5B98CC23CDF56600D0CFA5 /* GameViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GameViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -68,6 +74,10 @@
 				6D5B98B523CDD2C700D0CFA5 /* ViewController.h */,
 				6D5B98B623CDD2C700D0CFA5 /* ViewController.m */,
 				6D5B98B823CDD2C700D0CFA5 /* Main.storyboard */,
+				6D5B98CB23CDF56600D0CFA5 /* GameViewController.h */,
+				6D5B98CC23CDF56600D0CFA5 /* GameViewController.m */,
+				6D5B98C823CDD55100D0CFA5 /* MyTableViewController.h */,
+				6D5B98C923CDD55100D0CFA5 /* MyTableViewController.m */,
 				6D5B98BB23CDD2CD00D0CFA5 /* Assets.xcassets */,
 				6D5B98BD23CDD2CD00D0CFA5 /* LaunchScreen.storyboard */,
 				6D5B98C023CDD2CD00D0CFA5 /* Info.plist */,
@@ -147,8 +157,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				6D5B98B723CDD2C700D0CFA5 /* ViewController.m in Sources */,
+				6D5B98CA23CDD55100D0CFA5 /* MyTableViewController.m in Sources */,
 				6D5B98B123CDD2C700D0CFA5 /* AppDelegate.m in Sources */,
 				6D5B98C223CDD2CD00D0CFA5 /* main.m in Sources */,
+				6D5B98CD23CDF56600D0CFA5 /* GameViewController.m in Sources */,
 				6D5B98B423CDD2C700D0CFA5 /* SceneDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

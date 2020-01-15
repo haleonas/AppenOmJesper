@@ -9,14 +9,31 @@
 #import "ViewController.h"
 
 @interface ViewController ()
-
+    @property NSUserDefaults *settings;
 @end
 
 @implementation ViewController
 
+NSString *bgKey = @"BG";
+
 - (void)viewDidLoad {
     [super viewDidLoad];
-    // Do any additional setup after loading the view.
+    
+    self.settings = [NSUserDefaults standardUserDefaults];
+    NSString *background = [_settings objectForKey:bgKey];
+    NSLog(@"%@", background);
+    
+    if([background isEqualToString:@"White"])
+    {
+        self.view.backgroundColor = [UIColor whiteColor];
+        //sätt till "mörkt" tema
+    }
+    else
+    {
+        //sätt till mörte tema
+        self.view.backgroundColor = [UIColor grayColor];
+    }
+    
 }
 
 
